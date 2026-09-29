@@ -1,0 +1,47 @@
+# Fabric crypto material and generated network artifacts
+organizations/
+crypto-config/
+channel-artifacts/
+system-genesis-block/
+*.pem
+*_sk
+*.key
+*.tx
+*.block
+*.tar.gz
+
+# Fabric binaries and samples pulled by install-fabric.sh
+bin/
+config/
+fabric-samples/
+
+# Wallets and identities
+wallet/
+wallets/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Documentation and plans stay local (vault / Confluence), never on GitHub
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+docs/
+plans/
+
+# Go
+vendor/
+*.test
+coverage.out
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
